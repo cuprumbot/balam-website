@@ -1854,7 +1854,6 @@ footer .newsletter_form .form-control {
 .copyright_footer p {
   font-size: 13px;
   padding: 10px;
-  text-transform: capitalize;
   color: #ffffff;
 }
 .copyright_footer ul.footer_menu {
@@ -1868,7 +1867,6 @@ footer .newsletter_form .form-control {
 }
 .copyright_footer ul.footer_menu li a {
   padding: 10px;
-  text-transform: capitalize;
   color: #838383;
 }
 .copyright_footer ul.footer_menu li a:hover {
@@ -2359,7 +2357,6 @@ Cover
 .icon_box_one .content h4 {
   color: #18181c;
   margin-bottom: 15px;
-  text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2367,7 +2364,6 @@ Cover
   color: #f50136;
   font-size: 14px;
   font-weight: 600;
-  text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2558,13 +2554,11 @@ Cover
 }
 .price_box .price_header h6 {
   font-size: 14px;
-  text-transform: capitalize;
   color: #838383;
   font-weight: 400;
 }
 .price_box .price_tag {
   padding: 15px 0;
-  text-transform: capitalize;
   color: #18181c;
   font-size: 48px;
   font-weight: 700;
