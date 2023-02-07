@@ -27,7 +27,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900");
 /* ----------------Text Fonts ------------------- */
 body {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
@@ -74,7 +74,7 @@ h6, .h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   margin: 0 0 15px;
   line-height: 24px;
@@ -103,6 +103,10 @@ a:active {
   color: #838383;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+li {
+  font-size: 16px;
 }
 
 ul.nosyely_list {
@@ -1728,6 +1732,14 @@ header.sticky_header {
   transition: all ease-in-out 0.4s;
 }
 
+/* TO DO: ajustar tamano de logo en barra fija */
+header.sticky_header .logo {
+  max-height: 80px;
+}
+header.sticky_header .logo img {
+  max-height: 80px;
+}
+
 .navbar-toggler {
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -2363,6 +2375,10 @@ Cover
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+.icon_box_one .content li {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
 .icon_box_one:hover {
   -webkit-box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
           box-shadow: 0 10px 32px rgba(0, 0, 0, 0.25);
@@ -2381,6 +2397,11 @@ Cover
   transition: all 0.4s ease-in-out;
 }
 .icon_box_one:hover .content p {
+  color: #ffffff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.icon_box_one:hover .content li {
   color: #ffffff;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
