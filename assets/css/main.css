@@ -166,7 +166,12 @@ ul.nosyely_list {
 }
 
 .brand_item {
-  opacity: 0.3;
+  opacity: 0.6;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.founder_brand_item {
+  opacity: 0.7;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -175,7 +180,17 @@ ul.nosyely_list {
   max-width: 130px;
   margin: 0 auto;
 }
+.founder_brand_item img {
+  display: block;
+  max-width: 260px;
+  margin: 0 auto;
+}
 .brand_item:hover {
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+.founder_brand_item:hover {
   opacity: 1;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
@@ -1982,7 +1997,7 @@ Cover
   display: block;
   position: relative;
   list-style: none;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 .cover_slider .slider-content-center {
   max-width: 800px;
