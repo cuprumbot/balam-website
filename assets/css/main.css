@@ -1657,10 +1657,11 @@ img {
 2. HEADER
 -------------------------------------------------------- */
 header {
+  background-color: #18181c00;
   min-height: 50px;
   padding: 0;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 10px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -1682,9 +1683,9 @@ header .logo img {
 }
 header ul.menu li a.nav-link {
   padding: 20px 12px !important;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
   display: block;
   text-transform: uppercase;
   color: #ffffff;
@@ -2022,7 +2023,6 @@ Cover
   display: block;
   position: relative;
   list-style: none;
-  /* word-break: break-all; */
 }
 .cover_slider .slider-content-center {
   max-width: 800px;
@@ -2045,7 +2045,7 @@ Cover
 }
 .cover_slider .cover_item .slider_content {
   display: table;
-  background-color: rgba(0, 0, 0, 0.2);
+  /*background-color: rgba(0, 0, 0, 0.2);*/
   height: 100%;
   width: 100%;
   position: relative;
