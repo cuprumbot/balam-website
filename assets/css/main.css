@@ -1670,17 +1670,19 @@ header .menu {
 header .logo {
   padding-top: 0;
   padding-bottom: 0;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
 }
 header .logo img {
   float: left;
   max-width: 160px;
   margin-right: 3px;
-  /* fix me */
+  -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 header ul.menu li a.nav-link {
   padding: 20px 12px !important;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1px;
   font-weight: 400;
   display: block;
@@ -1688,7 +1690,7 @@ header ul.menu li a.nav-link {
   color: #ffffff;
 }
 header ul.menu li a.nav-link:hover {
-  color: #223983;
+  color: #bbbbbb;
 }
 header ul.menu .search_btn {
   padding: 16px 8px !important;
@@ -1741,13 +1743,15 @@ header.sticky_header {
   transition: all ease-in-out 0.4s;
 }
 
-/* TO DO: ajustar tamano de logo en barra fija */
 header.sticky_header .logo {
+  /* TO DO - ajustar tamano de logo en barra fija */
   max-height: 80px;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
 }
 header.sticky_header .logo img {
   max-height: 80px;
-  /* fix me */
+  -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 
@@ -2071,7 +2075,7 @@ Cover
   font-size: 90px;
   font-weight: 900;
   line-height: 1.1;
-  /* fix me - cambiar color cuando se cambie imagen de fondo */
+  /* TO DO - cambiar color cuando se cambie imagen de fondo */
   color: #ffffff;
   -webkit-transform: translateY(20px);
   transform: translateY(20px);
@@ -2736,12 +2740,10 @@ Cover
   display: block;
   max-width: 100px;
 }
-/* TO DO - anchos tabla */
 .table.event_calender tbody td.event_date {
   font-weight: 600;
   font-size: 30px;
   color: #000;
-  max-width: 200px;
 }
 .table.event_calender tbody td.event_date span {
   display: block;
@@ -3233,4 +3235,9 @@ textarea.form-control {
 }
 .accordion_card .card-body {
   font-size: 16px;
+}
+
+/* Youtube videos */
+.embed-responsive {
+  max-height: 400px;
 }
