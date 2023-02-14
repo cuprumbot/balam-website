@@ -2351,7 +2351,10 @@ Cover
 }
 
 .icon_box_one {
+  /*
   background-color: #f0f2f6;
+  */
+  background-color: #ededed;
   padding: 0;
   margin: 25px 0;
   position: relative;
@@ -2381,8 +2384,7 @@ Cover
   margin-bottom: 15px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  width: 140px;
-  height: 140px;
+  width: 80%;
 }
 .icon_box_one .content {
   margin-top: 0;
@@ -2422,11 +2424,13 @@ Cover
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+/*
 .icon_box_one:hover img {
   filter: invert(100%);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+*/
 .icon_box_one:hover .content h4 {
   color: #ffffff;
   -webkit-transition: all 0.4s ease-in-out;
@@ -2477,6 +2481,7 @@ Cover
   font-weight: 500;
   color: #838383;
   font-size: 20px;
+  text-align: left;
 }
 .icon_box_two .content h5 {
   font-size: 24px;
@@ -2730,7 +2735,8 @@ Cover
 -------------------------------------------------------- */
 .table.event_calender {
   position: relative;
-  min-width: 400px;
+  min-width: 290px;
+  font-size: 18px;
 }
 .table.event_calender thead.event_title {
   background-color: #223983;
@@ -2758,7 +2764,7 @@ Cover
   background-color: #f0f2f6;
 }
 .table.event_calender tbody td, .table.event_calender tbody th {
-  padding: 30px 25px;
+  padding: 30px 0px;
   border: 0;
   vertical-align: middle;
   text-align: center;
@@ -2777,8 +2783,8 @@ Cover
 }
 .table.event_calender tbody td.event_date span {
   display: block;
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 600;
+  font-size: 18px;
 }
 .table.event_calender tbody td.event_place h5 {
   font-size: 18px;
@@ -2805,6 +2811,41 @@ Cover
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
+
+
+/* boostrap instead of a real table */
+.table.event_calender tbody td {
+  font-weight: 600;
+  font-size: 30px;        /* Big number for day */
+  color: #000;
+}
+.table.event_calender .cal_date {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.table.event_calender tbody td span {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;        /* Small text for month */
+  margin-top: 10px;
+}
+.table.event_calender tbody td h5 {
+  font-size: 22px;        /* Fase ALGO size */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.table.event_calender tbody td h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+
+
+
 
 /*  ----------------------------------------------------
 9 testimonial
