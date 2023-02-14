@@ -2772,9 +2772,12 @@ Cover
 .table.event_calender tbody td img, .table.event_calender tbody th img {
   border-radius: 4px;
   display: block;
+  /*
   min-height: 100px;
   max-height: 120px;
   max-width: 150px;
+  */
+  width: 80%;
 }
 .table.event_calender tbody td.event_date {
   font-weight: 600;
@@ -2821,7 +2824,7 @@ Cover
 }
 .table.event_calender .cal_date {
   display: block;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 .table.event_calender tbody td span {
@@ -2832,7 +2835,7 @@ Cover
 }
 .table.event_calender tbody td h5 {
   font-size: 22px;        /* Fase ALGO size */
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -2842,7 +2845,9 @@ Cover
   font-weight: 500;
   margin-bottom: 0;
 }
-
+.table-responsive {
+  overflow-x: hidden;
+}
 
 
 
