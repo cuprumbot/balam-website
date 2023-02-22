@@ -189,12 +189,12 @@ ul.nosyely_list {
 }
 
 .brand_item {
-  opacity: 0.6;
+  opacity: 1;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 .founder_brand_item {
-  opacity: 0.7;
+  opacity: 1;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
@@ -1863,11 +1863,11 @@ footer .footer_social li {
   margin: 5px;
 }
 footer .footer_social li a {
-  border: solid 1px #838383;
+  border: solid 0px #838383;
   display: block;
   border-radius: 50px;
   padding: 7px 0;
-  font-size: 24px;
+  font-size: 26px;
   color: #838383;
   width: 40px;
   height: 40px;
